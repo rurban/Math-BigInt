@@ -16,9 +16,9 @@ package Math::BigInt;
 # underlying lib might change the reference!
 
 my $class = "Math::BigInt";
-use 5.006;
+use 5.006002;
 
-$VERSION = '1.92';
+$VERSION = '1.93';
 
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(objectify bgcd blcm); 

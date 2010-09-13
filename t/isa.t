@@ -1,28 +1,9 @@
 #!/usr/bin/perl -w
 
-use Test;
 use strict;
+use Test::More tests => 7;
 
-BEGIN
-  {
-  $| = 1;
-  # to locate the testing files
-  my $location = $0; $location =~ s/isa.t//i;
-  unshift @INC, qw(../lib);
-  if (-d 't')
-    {
-    chdir 't';
-    require File::Spec;
-    unshift @INC, File::Spec->catdir(File::Spec->updir, $location);
-    }
-  else
-    {
-    unshift @INC, $location;
-    }
-  print "# INC = @INC\n";
-
-  plan tests => 7;
-  }
+BEGIN { unshift @INC, 't'; }
 
 use Math::BigInt::Subclass;
 use Math::BigFloat::Subclass;
@@ -34,21 +15,20 @@ $class = "Math::BigInt::Subclass";
 $CL = "Math::BigInt::Calc";
 
 # Check that a subclass is still considered a BigInt
-ok ($class->new(123)->isa('Math::BigInt'),1);
+isa_ok ($class->new(123), 'Math::BigInt');
 
 # ditto for plain Math::BigInt
-ok (Math::BigInt->new(123)->isa('Math::BigInt'),1);
+isa_ok (Math::BigInt->new(123), 'Math::BigInt');
 
 # But Math::BigFloats aren't
-ok (Math::BigFloat->new(123)->isa('Math::BigInt') || 0,0);
+isnt (Math::BigFloat->new(123)->isa('Math::BigInt'), 1);
 
 # see what happens if we feed a Math::BigFloat into new()
 $x = Math::BigInt->new(Math::BigFloat->new(123));
-ok (ref($x),'Math::BigInt');
-ok ($x->isa('Math::BigInt'),1);
+is (ref($x),'Math::BigInt');
+isa_ok ($x, 'Math::BigInt');
 
 # ditto for subclass
 $x = Math::BigInt->new(Math::BigFloat->new(123));
-ok (ref($x),'Math::BigInt');
-ok ($x->isa('Math::BigInt'),1);
-
+is (ref($x),'Math::BigInt');
+isa_ok ($x, 'Math::BigInt');

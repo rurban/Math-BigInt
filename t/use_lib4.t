@@ -5,33 +5,13 @@
 # the former lib statement
 
 use strict;
-use Test;
+use Test::More tests => 2;
 
-BEGIN
-  {
-  $| = 1;
-  # to locate the testing files
-  my $location = $0; $location =~ s/use_lib4.t//i;
-  unshift @INC, qw(../lib);     # to locate the modules
-  if (-d 't')
-    {
-    chdir 't';
-    require File::Spec;
-    unshift @INC, File::Spec->catdir(File::Spec->updir, $location);
-    }
-  else
-    {
-    unshift @INC, $location;
-    }
-  print "# INC = @INC\n";
-
-  plan tests => 2;
-  } 
+BEGIN { unshift @INC, 't'; }
 
 use Math::BigInt lib => 'BareCalc';
 use Math::BigFloat lib => 'Calc';
 
-ok (Math::BigInt->config()->{lib},'Math::BigInt::Calc');
+is (Math::BigInt->config()->{lib},'Math::BigInt::Calc');
 
-ok (Math::BigFloat->new(123)->badd(123),246);
-
+is (Math::BigFloat->new(123)->badd(123),246);
