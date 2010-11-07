@@ -21,7 +21,7 @@ no_index:
     - inc
     - t
 recommends:
-  Math::BigInt::FastCalc: 0.19
+  Math::BigInt::FastCalc: 0.24
   Math::BigInt::GMP: 1.24
   Math::BigInt::Pari: 1.13
   Math::BigRat: 0.22
@@ -30,4 +30,4 @@ requires:
   perl: 5.006002
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.96
+version: 1.97

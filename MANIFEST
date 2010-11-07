@@ -78,6 +78,7 @@ t/sub_mif.t
 t/trap.t
 t/upgrade.inc
 t/upgrade.t
+t/upgrade2.t
 t/upgradef.t
 t/use.t
 t/use_lib1.t
