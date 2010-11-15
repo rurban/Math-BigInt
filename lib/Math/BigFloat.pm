@@ -12,7 +12,7 @@ package Math::BigFloat;
 #   _a	: accuracy
 #   _p	: precision
 
-$VERSION = '1.64';
+$VERSION = '1.65';
 require 5.006002;
 
 require Exporter;
@@ -3696,7 +3696,7 @@ sub as_number
     {
     $MBI->_lsft( $z, $x->{_e},10);
     }
-  $z = Math::BigInt->new( $x->{sign} . $MBI->_num($z));
+  $z = Math::BigInt->new( $x->{sign} . $MBI->_str($z));
   $z;
   }
 
