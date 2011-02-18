@@ -21,13 +21,13 @@ no_index:
     - inc
     - t
 recommends:
-  Math::BigInt::FastCalc: 0.24
-  Math::BigInt::GMP: 1.24
-  Math::BigInt::Pari: 1.13
-  Math::BigRat: 0.22
+  Math::BigInt::FastCalc: 0.25
+  Math::BigInt::GMP: 1.35
+  Math::BigInt::Pari: 1.15
+  Math::BigRat: 0.2602
   bignum: 0.22
 requires:
   perl: 5.006002
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.991
+version: 1.992

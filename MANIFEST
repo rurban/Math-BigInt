@@ -28,7 +28,10 @@ MANIFEST.SKIP
 META.yml
 NEW
 README
-t/00-signature.t
+t/00sig.t
+t/01load.t
+t/02pod.t
+t/03podcov.t
 t/_e_math.t
 t/alias.inc
 t/bare_mbf.t
@@ -62,8 +65,6 @@ t/mbimbf.inc
 t/mbimbf.t
 t/nan_cmp.t
 t/new_overloaded.t
-t/pod.t
-t/pod_cov.t
 t/req_mbf0.t
 t/req_mbf1.t
 t/req_mbfa.t
