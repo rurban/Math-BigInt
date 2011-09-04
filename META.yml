@@ -1,15 +1,14 @@
 ---
 abstract: 'Arbitrary size integer/float math package'
 author:
-  - 'Original code by Mark Biggar, overloaded interface by Ilya Zakharevich.'
-  - 'Tels <nospam-abuse@bloodgate.com>'
+  - 'Original code by Mark Biggar, overloaded interface by Ilya Zakharevich., Tels <nospam-abuse@bloodgate.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.42
   Test::More: 0.62
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 1.00'
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112150'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,17 +16,8 @@ meta-spec:
 name: Math-BigInt
 no_index:
   directory:
-    - examples
-    - inc
     - t
-recommends:
-  Math::BigInt::FastCalc: 0.25
-  Math::BigInt::GMP: 1.35
-  Math::BigInt::Pari: 1.15
-  Math::BigRat: 0.2602
-  bignum: 0.22
+    - inc
 requires:
   perl: 5.006002
-resources:
-  license: http://dev.perl.org/licenses/
-version: 1.992
+version: 1.997
