@@ -25,7 +25,6 @@ LICENSE
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
-META.yml
 NEW
 README
 t/00sig.t
@@ -73,6 +72,7 @@ t/req_mbfn.t
 t/req_mbfw.t
 t/require.t
 t/round.t
+t/rt-16221.t
 t/sub_ali.t
 t/sub_mbf.t
 t/sub_mbi.t
@@ -90,4 +90,6 @@ t/use_lib4.t
 t/use_mbfw.t
 t/with_sub.t
 TODO
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
 SIGNATURE                                Public-key signature (added by MakeMaker)
