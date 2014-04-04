@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,37 +15,36 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 f6ef98e8f3f6a4f670d569f279ef5a3c05c16d0c BENCHMARK
-SHA1 89a3a97b2a4c5bb8919e51856a35b493cd5f9312 BUGS
-SHA1 be61886bedb5108610be7c03137c8d06c01b0b3b CHANGES
+SHA1 d681b992c9e027633a59fbd52530805ee4e1621c BUGS
+SHA1 05f7c590cb00bfbea30be2aa5c6276e65ec095a1 CHANGES
 SHA1 f27c8bd98e754f96c9825fa6ce9f1244c93bdbe6 CREDITS
 SHA1 bc2db74538d3acd53f71b5512a144fe18c253ecd GOALS
 SHA1 fe61299e80a1dca48fbaa33f0869e3238ec07c70 HISTORY
 SHA1 c42565ad26cdf91502bacf19a4f7080e63c51fe2 INSTALL
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
-SHA1 8146d99998bd0e6c7861ab295b530d80e9f7d4c3 MANIFEST
-SHA1 9981edbeac4473adbe951034fc97afc2b9bf60a2 MANIFEST.SKIP
-SHA1 46ae142386712a790df63bac5cdaeaa2c4fe9960 META.json
-SHA1 a9bcc4f98112cc3368473950410f0ae6abf7d669 META.yml
-SHA1 ec08721a8e408016e79b6484362f7a8b03b41d7c Makefile.PL
-SHA1 2ec9bfda86bb2073e9423e6a86bb6956c06ebb2f NEW
+SHA1 43408348b400ef1d910a18feab394817e343cc86 MANIFEST
+SHA1 86df44fbe1ea7a68897113f0e327d0f0c25b91e3 MANIFEST.SKIP
+SHA1 1e0a1155f4e92ff56e10551124cc61ababc6f274 META.json
+SHA1 994883693277174208f3ef92b7cb323e8ea0db66 META.yml
+SHA1 ae1e2767f1988a537d4a64fc84a07587cbca2ef5 Makefile.PL
+SHA1 a299af68b43c7cdb7c930275e007a219bcab8be9 NEW
 SHA1 481f5827752d2100914db1eaeb60bf0bbd13529e README
 SHA1 f1500916b488220b707bc10a0388d7dbcfd52e99 TODO
 SHA1 c2bbe82659480de8710b9e64a62d47b64dddd2d2 examples/1000.txt
 SHA1 fe55e27b4791656d36a6c9548280746de7003be5 examples/bigprimes.pl
-SHA1 b57b118469a1a16e54d61206c5bd9077dbb2231a examples/hailstone.pl
 SHA1 8ca42793d8769ec8d0928f11c30f38d96dd54efb examples/prime.pl
-SHA1 7b4ae50ebac72d20761171c4c2b50c206344ea40 inc/Module/Install.pm
-SHA1 d9fe55a427fe2fd75b5029afeeaa61b592e07f79 inc/Module/Install/Base.pm
-SHA1 62d3922826d9f89f20c185e7031ac8f028504745 inc/Module/Install/Can.pm
-SHA1 dc809f64fb70a26b069a36f8d3d353d520dbb7e1 inc/Module/Install/Fetch.pm
-SHA1 73ab91490a628452cc140db72ef9d13a1326d211 inc/Module/Install/Makefile.pm
-SHA1 8ce3f2b414e4617e6233dd4ba10830f8c5d672ec inc/Module/Install/Metadata.pm
-SHA1 3b0acd2eeac93a0afe48120f5648f0db362e5bbf inc/Module/Install/Win32.pm
-SHA1 f08924f051e623f8e09fa6a121993c4a9cf7d9eb inc/Module/Install/WriteAll.pm
-SHA1 d9078fbda98ca86682a317481f9a4886d66bf5d0 lib/Math/BigFloat.pm
-SHA1 2e06f9606e5155e0d2b532092f211a978422a723 lib/Math/BigInt.pm
-SHA1 57296203789f7c32334a1196883fd2d8eb5b2880 lib/Math/BigInt/Calc.pm
-SHA1 d0ddfce78d6da2813aec2cac2735cb5a48715b02 lib/Math/BigInt/CalcEmu.pm
+SHA1 dc13ce0dbb488a5de81c3f6519ee31acda17397a inc/Module/Install.pm
+SHA1 91c20cbda8ca41b4e8f9e0390faff635c2ebe839 inc/Module/Install/Base.pm
+SHA1 eaf50ccbacecb797f0527deb0221c8264f6c8bd8 inc/Module/Install/Can.pm
+SHA1 363c8931cc183444907684b71d6a379e4fc8edcb inc/Module/Install/Fetch.pm
+SHA1 26ae1c0f5f352037b560414f216d7e3ac682f936 inc/Module/Install/Makefile.pm
+SHA1 ff97eb025b44c343d026c2a56a73d50c65319e95 inc/Module/Install/Metadata.pm
+SHA1 4c5ce519d404e242418f51dfe761287469e18e3a inc/Module/Install/Win32.pm
+SHA1 47a52cf8719a283c0efa2edab0088b5d67e0f23a inc/Module/Install/WriteAll.pm
+SHA1 a652347eaf88e4119e4f09c0e66bf2848e6a5def lib/Math/BigFloat.pm
+SHA1 9e2a90ffbc9d895142cad22fbf7599746a5ba3cb lib/Math/BigInt.pm
+SHA1 a7f41aa75281e17489a2f6d15c267ab005fdd5c7 lib/Math/BigInt/Calc.pm
+SHA1 fc9464adbd4eb931f92811447333ddc6cf2b0a3b lib/Math/BigInt/CalcEmu.pm
 SHA1 a2d393f9d265801f8ef022725d03f83b616b2fe1 t/00sig.t
 SHA1 32b73052135171974d5c522f0dee665a03dacdbd t/01load.t
 SHA1 02ef05af53cb7378452590324bb21dfe61f44069 t/02pod.t
@@ -56,15 +55,15 @@ SHA1 62deb0b9e3bf94aaf12745207efa3d858f3b878e t/Math/BigInt/Scalar.pm
 SHA1 27c1738a064e7f7bf91c762d411af447847c331c t/Math/BigInt/Subclass.pm
 SHA1 a2014803baec5dbef46235f83411f76efa0efea7 t/_e_math.t
 SHA1 0e725849a20e80bb1da796a7be40b69a958c8313 t/alias.inc
-SHA1 be61650d19d12797f0bd45d64a5dbae68f22f3ad t/bare_mbf.t
-SHA1 fa55cd1412116a4f19c0580c46ce71b642de3831 t/bare_mbi.t
+SHA1 16d36aa915f9d6e86ec3e4f4e05ef26c6129399d t/bare_mbf.t
+SHA1 da1d61b785022c275d7d17f62aa6dfcdf1ddadaa t/bare_mbi.t
 SHA1 97fb1db80aeb4ab007e2260d35329e149edf5e05 t/bare_mif.t
 SHA1 333a425247b4e276696210a6322b815a0f55f5ab t/big_pi_e.t
-SHA1 d05514d6cae3afa4feb983d5467eaf9422aa546c t/bigfltpm.inc
-SHA1 a8f364fea5e2993f5ae7bd3f8463024175d33e24 t/bigfltpm.t
+SHA1 e6bb2aea2f026016848db9ca96507c4ca4e3d265 t/bigfltpm.inc
+SHA1 9537400817c028f2282e3c085796ecbded0ccb66 t/bigfltpm.t
 SHA1 b3ceebc429c05bce95347575d28348306dbcfcc8 t/bigintc.t
-SHA1 845e7daa3c6b2463a6fdc9218044975801547bb8 t/bigintpm.inc
-SHA1 5c7e31a73f1827d08118f96cf31d5d4e792ab8c0 t/bigintpm.t
+SHA1 d5d419d73cc52371ba3487895fd49f793ffe4d0c t/bigintpm.inc
+SHA1 73ac3701a1116b1831c871153c836f618a60f4d7 t/bigintpm.t
 SHA1 cb07d195c20eb306088eeacccc2c7475f267446c t/bigints.t
 SHA1 5bdf82ef7085b97caa496bfc71ab1fbfe48ef9e8 t/biglog.t
 SHA1 da260b6e02b220868fc7b4c0f87569299402fbf7 t/bigroot.t
@@ -93,12 +92,12 @@ SHA1 1bbe72733abd2f580f94b6a147672f7671260149 t/require.t
 SHA1 ad6cc6fe4bb93ae78db4eb7dcb96c95024b963d2 t/round.t
 SHA1 8201ea0035861736224992039bcc01d5bd72b778 t/rt-16221.t
 SHA1 9d51def046889bf20c6ac2a278f9b3f5f8e36025 t/sub_ali.t
-SHA1 26e2d4b13a44eaa38141a7c119a2737ba10ae88d t/sub_mbf.t
-SHA1 8d56d489b86dbe487378d309e858df04bc17f9ed t/sub_mbi.t
+SHA1 3717645c60b533355006f3966f36c341efea24e7 t/sub_mbf.t
+SHA1 3d03b0a0970abc3b27d8b0f20877213c7f3ea87d t/sub_mbi.t
 SHA1 a9d994551c5ca127c11f5cdd1d8df1d93972c72c t/sub_mif.t
 SHA1 22c563a6879c94ce7c8eb72c645f2e374837c34e t/trap.t
-SHA1 9438a430cebc43f4466b3d75662fe7dde577d3c7 t/upgrade.inc
-SHA1 6d12a4d44729cf096c4a22935484ffe72055aaf8 t/upgrade.t
+SHA1 888eb4cba20a5f809458a05d7a078493a5ff07d4 t/upgrade.inc
+SHA1 3256f1ecdee8a1aafdcc6142362e815e565e3bff t/upgrade.t
 SHA1 e9019081ff5c07957e45619010c62a54472d8508 t/upgrade2.t
 SHA1 49183118717b8b90e498b6d7b1ac0aa0e4d85894 t/upgradef.t
 SHA1 d58003dbb3ffb469dee56b8c93c5a6b3c353ddb7 t/use.t
@@ -107,11 +106,15 @@ SHA1 4959257dd52935cdfd17b132e11bcdb4e37752e9 t/use_lib2.t
 SHA1 29606835c9d63a19075003429b00947b922ef144 t/use_lib3.t
 SHA1 a5cc44a7e485828791696b2b27925e0d2855f883 t/use_lib4.t
 SHA1 0c5f496ed66b02d0e118763c91862d84e3fb5629 t/use_mbfw.t
-SHA1 8e66591a9596ed344c09741a52ee5a54a4142dc6 t/with_sub.t
+SHA1 1d0fbaa1a15cd095c4499a70886a40f1a2a6c7a5 t/with_sub.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.9 (Cygwin)
+Version: GnuPG v1
 
-iEYEARECAAYFAk5jyfsACgkQVQvyyU1bcho3hwCeJAhTBN2Vu3AqJ3wt7b3TGyn1
-+NUAoNCUn23+323B5+4YaBtCwTqie9L0
-=wjVC
+iQEcBAEBAgAGBQJTPotCAAoJEGcmPl2fr166SGgH/RjNe/223B16WOfwNgm2lPhu
+MRB3+d6x9O8ceSF9aL9UlcDaoazgDik75zNSuJZrDt+wButpT0UwVzWx/UI8F1Fz
+D9f0OIngPyQXuyJM57/85UbJy1ApKIKs4+mzCb9NHHJwLxcXJq4R9rnVtOWkHC4a
+RxIvtrnG911GmO0BqrRtYI15MQ90VzHCoAY3gID90s9yxmHEA5h6GCTn+MyCRE0e
+ZDCecSlKO9nXkPTOxL574iAhOl71TQTe6wjcBZklw7BsZc+NP/WodV0RoKh7cE5g
+hRnlGlqaLRr3a1y/9hTsfv3of5XTlqngwWcfVcHYVyQFPC6+cGf15hVe8K5D/ZE=
+=7Uk/
 -----END PGP SIGNATURE-----
