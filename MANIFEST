@@ -44,6 +44,8 @@ t/bigintpm.t
 t/bigints.t
 t/biglog.t
 t/bigroot.t
+t/blog-mbf.t
+t/blog-mbi.t
 t/calling.t
 t/config.t
 t/const_mbf.t
