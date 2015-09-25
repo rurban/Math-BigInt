@@ -65,6 +65,8 @@ t/mbimbf.inc
 t/mbimbf.t
 t/nan_cmp.t
 t/new_overloaded.t
+t/objectify_mbf.t
+t/objectify_mbi.t
 t/req_mbf0.t
 t/req_mbf1.t
 t/req_mbfa.t
