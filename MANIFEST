@@ -15,7 +15,6 @@ inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
-INSTALL
 lib/Math/BigFloat.pm
 lib/Math/BigInt.pm
 lib/Math/BigInt/Calc.pm
