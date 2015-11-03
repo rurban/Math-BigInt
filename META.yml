@@ -22,5 +22,5 @@ requires:
   Math::Complex: '1.39'
   Test::More: '0.62'
   perl: '5.006002'
-version: '1.999707'
+version: '1.999708'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.016'
