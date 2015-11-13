@@ -50,6 +50,7 @@ t/config.t
 t/const_mbf.t
 t/constant.t
 t/downgrade.t
+t/from_hex-mbf.t
 t/inf_nan.t
 t/isa.t
 t/lib_load.t
