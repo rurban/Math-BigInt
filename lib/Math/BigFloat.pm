@@ -12,11 +12,12 @@ package Math::BigFloat;
 #   _a	: accuracy
 #   _p	: precision
 
-use 5.006002;
+use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '1.999710';
+our $VERSION = '1.9997_11';
+$VERSION = eval $VERSION;
 
 require Exporter;
 our @ISA	= qw/Math::BigInt/;
