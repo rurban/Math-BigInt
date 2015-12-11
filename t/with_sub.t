@@ -1,17 +1,21 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 
 # Test use Math::BigFloat with => 'Math::BigInt::SomeSubclass';
 
 use strict;
+use warnings;
+
 use Test::More tests => 2363 + 1;
 
-use Math::BigFloat with => 'Math::BigInt::Subclass', lib => 'Calc';
+use Math::BigFloat with => 'Math::BigInt::Subclass',
+                   lib  => 'Calc';
 
-use vars qw ($class $try $x $y $f @args $ans $ans1 $ans1_str $setup $CL);
-$class = "Math::BigFloat";
-$CL = "Math::BigInt::Calc";
+our ($CLASS, $CALC);
+$CLASS = "Math::BigFloat";
+$CALC  = "Math::BigInt::Calc";          # backend
 
 # the with argument is ignored
-is (Math::BigFloat->config()->{with}, 'Math::BigInt::Calc');
+is(Math::BigFloat->config()->{with}, 'Math::BigInt::Calc',
+   'Math::BigFloat->config()->{with}');
 
 require 't/bigfltpm.inc';	# all tests here for sharing

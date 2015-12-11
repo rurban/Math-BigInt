@@ -1,10 +1,11 @@
 package Math::BigInt::Calc;
 
-use 5.006002;
+use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '1.999710';
+our $VERSION = '1.9997_11';
+$VERSION = eval $VERSION;
 
 # Package to store unsigned big integers in decimal and do math with them
 

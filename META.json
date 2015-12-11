@@ -35,11 +35,11 @@
          "requires" : {
             "Math::Complex" : "1.39",
             "Test::More" : "0.9301",
-            "perl" : "5.006002"
+            "perl" : "5.006001"
          }
       }
    },
-   "release_status" : "stable",
-   "version" : "1.999710",
+   "release_status" : "testing",
+   "version" : "1.9997_11",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }

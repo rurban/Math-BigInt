@@ -15,11 +15,12 @@ package Math::BigInt;
 # Remember not to take shortcuts ala $xs = $x->{value}; $CALC->foo($xs); since
 # underlying lib might change the reference!
 
-use 5.006002;
+use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '1.999710';
+our $VERSION = '1.9997_11';
+$VERSION = eval $VERSION;
 
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(objectify bgcd blcm);
