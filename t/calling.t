@@ -6,7 +6,7 @@ use strict;
 use warnings;
 use lib 't';
 
-my $VERSION = '1.9997_11';      # adjust manually to match latest release
+my $VERSION = '1.999712';       # adjust manually to match latest release
 $VERSION = eval $VERSION;
 
 use Test::More tests => 161;
@@ -75,12 +75,8 @@ my $try;
 $try = "use $class (" . ($VERSION . '1') .");";
 $try .= ' $x = $class->new(123); $x = "$x";';
 eval $try;
-like($@,
-     $] < 5.008
-     ? qr/ ^ Math::BigInt \s+ \S+ \s+ required--this \s+ is \s+
-           only \s+ version \s+ \S+ /x
-     : qr/ ^ Math::BigInt \s+ version \s+ \S+ \s+ required--this \s+ is \s+
-           only \s+ version \s+ \S+ /x,
+like($@, qr/ ^ Math::BigInt \s+ ( version \s+ )? \S+ \s+ required--this \s+
+             is \s+ only \s+ version \s+ \S+ /x,
      $try);
 
 # test whether fallback to calc works

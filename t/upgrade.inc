@@ -563,9 +563,8 @@ NaN::0
 +inf:+:1
 -inf:-:1
 -inf:+:0
-# it must be exactly /^[+-]inf$/
-+infinity::0
--infinity::0
++iNfInItY::1
+-InFiNiTy::1
 &blsft
 abc:abc:NaN
 +2:+2:8

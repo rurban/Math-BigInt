@@ -5,7 +5,7 @@
 use strict;
 use warnings;
 
-use Test::More tests => 24;
+use Test::More tests => 26;
 
 use Math::BigFloat lib => 'Calc';
 
@@ -40,7 +40,7 @@ use Math::BigFloat lib => 'Calc';
     test_add(0, 0, '-', '+');
     test_add(0, 0, '+', '-');
     test_add(0, 0, '+', '+');
-    #test_add(0, 0, '-', '-');          # gives "-0"! TODO: fix this!
+    test_add(0, 0, '-', '-');          # gives "-0"! TODO: fix this!
 }
 
 #############################################################################
@@ -63,7 +63,7 @@ use Math::BigFloat lib => 'Calc';
         test_sub(123, 123, '-', '-');
     }
 
-    #test_sub(0, 0, '-', '+');          # gives "-0"! TODO: fix this!
+    test_sub(0, 0, '-', '+');          # gives "-0"! TODO: fix this!
     test_sub(0, 0, '+', '-');
     test_sub(0, 0, '+', '+');
     test_sub(0, 0, '-', '-');
