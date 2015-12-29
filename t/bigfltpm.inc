@@ -823,7 +823,7 @@ abcfstr:::NaN
 inf:inf
 +inf:inf
 -inf:-inf
-+infinity:NaN
++infinity:inf
 +-inf:NaN
 abc:NaN
    1 a:NaN
@@ -1821,9 +1821,12 @@ NaN::0
 +inf:+:1
 -inf:-:1
 -inf:+:0
-# it must be exactly /^[+-]inf$/
-+infinity::0
--infinity::0
+-inf:-inf:1
+-inf:+inf:0
++inf:-inf:0
++inf:+inf:1
++iNfInItY::1
+-InFiNiTy::1
 &is_odd
 abc:0
 0:0

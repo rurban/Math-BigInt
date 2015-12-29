@@ -5,7 +5,7 @@
 use strict;
 use warnings;
 
-use Test::More tests => 2363 + 1;
+use Test::More tests => 2367 + 1;
 
 use Math::BigFloat with => 'Math::BigInt::Subclass',
                    lib  => 'Calc';

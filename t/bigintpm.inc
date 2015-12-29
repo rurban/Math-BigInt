@@ -68,10 +68,7 @@ while (<DATA>) {
     $try = qq|\$x = $CLASS->new("$args[0]");|;
     if ($f eq "bnorm") {
         $try = qq|\$x = $CLASS->bnorm("$args[0]");|;
-    }
-
-
-    elsif ($f =~ /^is_(zero|one|odd|even|negative|positive|nan|int)$/) {
+    } elsif ($f =~ /^is_(zero|one|odd|even|negative|positive|nan|int)$/) {
         $try .= " \$x->$f() || 0;";
     } elsif ($f eq "is_inf") {
         $try .= qq| \$x->is_inf("$args[1]");|;
@@ -1397,9 +1394,8 @@ NaN::0
 -inf:+inf:0
 +inf:-inf:0
 +inf:+inf:1
-# it must be exactly /^[+-]inf$/
-+infinity::0
--infinity::0
++iNfInItY::1
+-InFiNiTy::1
 &blsft
 abc:abc:NaN
 +2:+2:8
