@@ -31,6 +31,11 @@ t/02pod.t
 t/03podcov.t
 t/_e_math.t
 t/alias.inc
+t/author-batan-mbf.t
+t/author-batan2-mbf.t
+t/author-blog-mbf.t
+t/author-blog-mbi.t
+t/author-bpi-mbf.t
 t/bare_mbf.t
 t/bare_mbi.t
 t/bare_mif.t
@@ -43,8 +48,6 @@ t/bigintpm.t
 t/bigints.t
 t/biglog.t
 t/bigroot.t
-t/blog-mbf.t
-t/blog-mbi.t
 t/calling.t
 t/config.t
 t/const_mbf.t
