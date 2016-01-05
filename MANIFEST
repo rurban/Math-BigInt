@@ -33,6 +33,7 @@ t/_e_math.t
 t/alias.inc
 t/author-batan-mbf.t
 t/author-batan2-mbf.t
+t/author-bexp-mbf.t
 t/author-blog-mbf.t
 t/author-blog-mbi.t
 t/author-bpi-mbf.t
