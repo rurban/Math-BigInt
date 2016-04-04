@@ -36,7 +36,11 @@ t/author-batan2-mbf.t
 t/author-bexp-mbf.t
 t/author-blog-mbf.t
 t/author-blog-mbi.t
+t/author-bmod-bdiv-mbi.t
 t/author-bpi-mbf.t
+t/author-btmod-btdiv-mbi.t
+t/author-numify-mbf.t
+t/author-numify-mbi.t
 t/bare_mbf.t
 t/bare_mbi.t
 t/bare_mif.t
