@@ -41,6 +41,7 @@ t/author-bpi-mbf.t
 t/author-btmod-btdiv-mbi.t
 t/author-numify-mbf.t
 t/author-numify-mbi.t
+t/author-relop-mbi-mbf.t
 t/bare_mbf.t
 t/bare_mbi.t
 t/bare_mif.t
@@ -53,12 +54,16 @@ t/bigintpm.t
 t/bigints.t
 t/biglog.t
 t/bigroot.t
+t/calling-class-methods.t
+t/calling-instance-methods.t
 t/calling.t
 t/config.t
 t/const_mbf.t
 t/constant.t
 t/downgrade.t
+t/from_bin-mbf.t
 t/from_hex-mbf.t
+t/from_oct-mbf.t
 t/inf_nan.t
 t/isa.t
 t/lib_load.t
@@ -72,6 +77,7 @@ t/mbi_rand.t
 t/mbimbf.inc
 t/mbimbf.t
 t/nan_cmp.t
+t/new-mbf.t
 t/new_overloaded.t
 t/objectify_mbf.t
 t/objectify_mbi.t
