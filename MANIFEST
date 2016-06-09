@@ -45,6 +45,10 @@ t/author-relop-mbi-mbf.t
 t/bare_mbf.t
 t/bare_mbi.t
 t/bare_mif.t
+t/bdstr-mbf.t
+t/bdstr-mbi.t
+t/bestr-mbf.t
+t/bestr-mbi.t
 t/big_pi_e.t
 t/bigfltpm.inc
 t/bigfltpm.t
@@ -54,6 +58,10 @@ t/bigintpm.t
 t/bigints.t
 t/biglog.t
 t/bigroot.t
+t/bnstr-mbf.t
+t/bnstr-mbi.t
+t/bsstr-mbf.t
+t/bsstr-mbi.t
 t/calling-class-methods.t
 t/calling-instance-methods.t
 t/calling.t
@@ -61,6 +69,10 @@ t/config.t
 t/const_mbf.t
 t/constant.t
 t/downgrade.t
+t/dparts-mbf.t
+t/dparts-mbi.t
+t/eparts-mbf.t
+t/eparts-mbi.t
 t/from_bin-mbf.t
 t/from_hex-mbf.t
 t/from_oct-mbf.t
@@ -79,6 +91,8 @@ t/mbimbf.t
 t/nan_cmp.t
 t/new-mbf.t
 t/new_overloaded.t
+t/nparts-mbf.t
+t/nparts-mbi.t
 t/objectify_mbf.t
 t/objectify_mbi.t
 t/req_mbf0.t
@@ -90,6 +104,8 @@ t/req_mbfw.t
 t/require.t
 t/round.t
 t/rt-16221.t
+t/sparts-mbf.t
+t/sparts-mbi.t
 t/sub_ali.t
 t/sub_mbf.t
 t/sub_mbi.t
