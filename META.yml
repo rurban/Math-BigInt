@@ -4,7 +4,7 @@ author:
   - '=over 4, Peter John Acklam <pjacklam@online.no>'
 build_requires:
   ExtUtils::MakeMaker: '6.59'
-  Test::More: '0.9301'
+  Test::More: '0.94'
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
@@ -20,7 +20,7 @@ no_index:
     - inc
 requires:
   Math::Complex: '1.39'
-  Test::More: '0.9301'
+  Test::More: '0.94'
   perl: '5.006001'
-version: '1.999727'
+version: '1.999800'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
