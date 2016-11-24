@@ -47,6 +47,8 @@ t/author-lib-arithmetic-binary-_div.dat
 t/author-lib-arithmetic-binary-_div.t
 t/author-lib-arithmetic-binary-_gcd.dat
 t/author-lib-arithmetic-binary-_gcd.t
+t/author-lib-arithmetic-binary-_lcm.dat
+t/author-lib-arithmetic-binary-_lcm.t
 t/author-lib-arithmetic-binary-_log_int.t
 t/author-lib-arithmetic-binary-_mod.dat
 t/author-lib-arithmetic-binary-_mod.t
