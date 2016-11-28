@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.80.
+signed via the Module::Signature module, version 0.81.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -16,15 +16,15 @@ Hash: SHA1
 
 SHA1 351109d418d3d08d4dd61b31475e7d5b8177e3e9 BENCHMARK
 SHA1 20104176cd4b0623c201cdb2c9583056898b2afc BUGS
-SHA1 882388054871ff7330095c8c6c1675fc5f246756 CHANGES
+SHA1 976020c04207628fd89be933626da1963b0852db CHANGES
 SHA1 a40e6f05bfd2a3e0542cf9e4971b1d48100eb2fd CREDITS
 SHA1 8d0b726d78afa344fb12508e1b027079699570e4 GOALS
 SHA1 fe61299e80a1dca48fbaa33f0869e3238ec07c70 HISTORY
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
 SHA1 bc4c6da387ea99703fddc3cf36cc6487b356d916 MANIFEST
 SHA1 86df44fbe1ea7a68897113f0e327d0f0c25b91e3 MANIFEST.SKIP
-SHA1 6a669796a50094e719320b3fefeb0700de2a0a4b META.json
-SHA1 07f09a5e6d0014b0e3f9fd34680a50fd1b700a79 META.yml
+SHA1 b3da4b0c330c896ebeadb7de3b379017b336f3a3 META.json
+SHA1 908daf70d2fa57e287d53d3286dd4db3a7cace4c META.yml
 SHA1 d1e9fafb6b18734f18252694c9c67e943117d9eb Makefile.PL
 SHA1 4e2191d1724e699862efc5350f480c8e02755112 NEW
 SHA1 813c62e6d3edd18b7b634765ecbd75b2cd6389a0 README
@@ -40,13 +40,13 @@ SHA1 4f77eb02e104324b08a047585c498146b045613b inc/Module/Install/Makefile.pm
 SHA1 2f5be6af6098acf6d786a4a7299a34d0c6c04ef9 inc/Module/Install/Metadata.pm
 SHA1 aa6723cc4a8d4475026f6ceb28e1f16459e8a11b inc/Module/Install/Win32.pm
 SHA1 6661285caedfe012cb5a1ca915a422ffc292ae2b inc/Module/Install/WriteAll.pm
-SHA1 dc1d725084ab4822c7b75e7ceb237337008c617c lib/Math/BigFloat.pm
-SHA1 d3d6d0c01b51a44bf682f7b79f86098df71ef7be lib/Math/BigInt.pm
-SHA1 8ca46439816e4e000c6ad8d6fcc7f1c6af709745 lib/Math/BigInt/Calc.pm
-SHA1 107c62d2ff56bdf64f16d560be80b55a62cb130e lib/Math/BigInt/CalcEmu.pm
-SHA1 8a41f4534cdd985abedcbbd18ffdaf28ee16d6d7 lib/Math/BigInt/Lib.pm
+SHA1 3cf43babf5166402cb86e855e0b83ea58287ce25 lib/Math/BigFloat.pm
+SHA1 d1681acd850ae4be856ca84461c38296fb283d01 lib/Math/BigInt.pm
+SHA1 864e70530fc3eefbdfa5f7c61a519a92afbd7038 lib/Math/BigInt/Calc.pm
+SHA1 8e4671a94d11d7886654ef6e07b312504945e18b lib/Math/BigInt/CalcEmu.pm
+SHA1 358ccae4bfb8da7ba2a12667e37da6a42fed9de3 lib/Math/BigInt/Lib.pm
 SHA1 385cc7ed3bf3e6290640b9880445ca9a3dea629e t/00sig.t
-SHA1 551efa40942b38f7f521b5a511d08f29ef7b4a1b t/01load.t
+SHA1 062a7e33e6697b19e002cdb11f3c648fe6669139 t/01load.t
 SHA1 b2ed9206ca5b69ec3b8bbf850bf4b6dfde518e7e t/02pod.t
 SHA1 70791ee5e7358a9605f95a1aa02a566210bec223 t/03podcov.t
 SHA1 a323fbde83f97abdedc14ff923a2ecabb1333e2d t/Math/BigFloat/Subclass.pm
@@ -222,11 +222,11 @@ SHA1 6f8e43710067bed0b0872fafdeb751c9a68732c4 t/use_mbfw.t
 SHA1 33e23e08da0a2ee6861350a81e843a2522b4966b t/with_sub.t
 -----BEGIN PGP SIGNATURE-----
 
-iQEcBAEBAgAGBQJYNek0AAoJEGcmPl2fr166puIIALDtwdndM7QRK6Ckvj8t47qP
-K5gF2Gja/GpoLKy69gIhRNoDtnb5hKbIj33FNxa4nV110IXh3GDAWn+lZmsWTxjl
-DgHcXHGKTIKq1ImJqICADmqK5cZ/Qh+T9P3jYJGFfcZcljwpa8JE94GBxum7bPND
-/ekelvOJrrcy8jIkNAt0u52chm32QaR3Sg8cpCo0i2S5TU+nuGcVGeb45HdWEIak
-Hw3hpoik+ogBTdCvn14u5Aa1Z6Hd2XHsu+10VMwz9cIqtKyR0H357B+JSn0c3b/3
-OyhV1EA0qqrLwffri/C5x8J7MuY1owHzl3OXsWU6PBq8mqrAvpYXVL/Y4As00YQ=
-=QEBV
+iQEcBAEBAgAGBQJYPHzvAAoJEGcmPl2fr1666h4H/25vPEMhUNC6TB2IHcTzKyyt
+skyn7n/2CZRcb4eWseoakqoHVXC85ljw0djNhUPAFzJBUunNHxlIKdMYOZ6Nv79S
+tO4wP3P6hkl3JxCidcz/VJEuCzz+zo6A0uJCHeb2a+rqDkuqOOXnCocmJwxvDyIj
+8daoeLL5KzQXXhPzxJAP6LcznZ7HpDLCrT9pTYKAC9sOB8U49c4jfSeXCR0j5BID
+vsCa4GVzhQRmorWY2+8yZOm/z95OarrsRRw2pszqrqGRQvKCX8YYAsbZrlPC+G2l
+67CsHybk3z6EfNoHZ9vnQO1KseHmkCe/xOZHPFHWMyLPxkq/u4xvkeNHCP5JFpk=
+=Fidz
 -----END PGP SIGNATURE-----
