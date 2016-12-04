@@ -1,10 +1,9 @@
 ---
-abstract: 'Arbitrary size integer/float math package'
+abstract: unknown
 author:
-  - '=over 4, Peter John Acklam <pjacklam@online.no>'
+  - 'Peter John Acklam <pjacklam@gmail.com>'
 build_requires:
-  ExtUtils::MakeMaker: '6.59'
-  Test::More: '0.94'
+  ExtUtils::MakeMaker: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
@@ -22,5 +21,5 @@ requires:
   Math::Complex: '1.39'
   Test::More: '0.94'
   perl: '5.006001'
-version: '1.999802'
+version: '1.999803'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
