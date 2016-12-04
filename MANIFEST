@@ -1,4 +1,3 @@
-BENCHMARK
 BUGS
 CHANGES
 CREDITS
@@ -7,14 +6,6 @@ examples/bigprimes.pl
 examples/prime.pl
 GOALS
 HISTORY
-inc/Module/Install.pm
-inc/Module/Install/Base.pm
-inc/Module/Install/Can.pm
-inc/Module/Install/Fetch.pm
-inc/Module/Install/Makefile.pm
-inc/Module/Install/Metadata.pm
-inc/Module/Install/Win32.pm
-inc/Module/Install/WriteAll.pm
 lib/Math/BigFloat.pm
 lib/Math/BigInt.pm
 lib/Math/BigInt/Calc.pm
@@ -156,6 +147,7 @@ t/from_oct-mbf.t
 t/inf_nan.t
 t/isa.t
 t/lib_load.t
+t/Math/BigFloat/#Subclass.pm#
 t/Math/BigFloat/Subclass.pm
 t/Math/BigInt/BareCalc.pm
 t/Math/BigInt/Lib/Minimal.pm
