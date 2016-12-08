@@ -86,6 +86,8 @@ t/author-lib-constructor-nullary-_zero.t
 t/author-lib-constructor-unary-_copy.t
 t/author-lib-constructor-unary-_from_bin.dat
 t/author-lib-constructor-unary-_from_bin.t
+t/author-lib-constructor-unary-_from_bytes.dat
+t/author-lib-constructor-unary-_from_bytes.t
 t/author-lib-constructor-unary-_from_hex.dat
 t/author-lib-constructor-unary-_from_hex.t
 t/author-lib-constructor-unary-_from_oct.dat
@@ -94,6 +96,8 @@ t/author-lib-constructor-unary-_new.t
 t/author-lib-convert-number-_num.t
 t/author-lib-convert-string-_as_bin.dat
 t/author-lib-convert-string-_as_bin.t
+t/author-lib-convert-string-_as_bytes.dat
+t/author-lib-convert-string-_as_bytes.t
 t/author-lib-convert-string-_as_hex.dat
 t/author-lib-convert-string-_as_hex.t
 t/author-lib-convert-string-_as_oct.dat
@@ -142,8 +146,11 @@ t/dparts-mbi.t
 t/eparts-mbf.t
 t/eparts-mbi.t
 t/from_bin-mbf.t
+t/from_bin-mbi.t
 t/from_hex-mbf.t
+t/from_hex-mbi.t
 t/from_oct-mbf.t
+t/from_oct-mbi.t
 t/inf_nan.t
 t/isa.t
 t/lib_load.t
