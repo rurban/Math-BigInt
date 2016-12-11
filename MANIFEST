@@ -154,7 +154,6 @@ t/from_oct-mbi.t
 t/inf_nan.t
 t/isa.t
 t/lib_load.t
-t/Math/BigFloat/#Subclass.pm#
 t/Math/BigFloat/Subclass.pm
 t/Math/BigInt/BareCalc.pm
 t/Math/BigInt/Lib/Minimal.pm
