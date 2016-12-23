@@ -60,9 +60,11 @@ t/author-lib-arithmetic-ternary-_modpow.dat
 t/author-lib-arithmetic-ternary-_modpow.t
 t/author-lib-arithmetic-ternary-_rsft.dat
 t/author-lib-arithmetic-ternary-_rsft.t
+t/author-lib-arithmetic-unary-_dec.dat
 t/author-lib-arithmetic-unary-_dec.t
 t/author-lib-arithmetic-unary-_fac.dat
 t/author-lib-arithmetic-unary-_fac.t
+t/author-lib-arithmetic-unary-_inc.dat
 t/author-lib-arithmetic-unary-_inc.t
 t/author-lib-arithmetic-unary-_sqrt.dat
 t/author-lib-arithmetic-unary-_sqrt.t
@@ -103,6 +105,14 @@ t/author-lib-convert-string-_as_hex.t
 t/author-lib-convert-string-_as_oct.dat
 t/author-lib-convert-string-_as_oct.t
 t/author-lib-convert-string-_str.t
+t/author-lib-convert-string-_to_bin.dat
+t/author-lib-convert-string-_to_bin.t
+t/author-lib-convert-string-_to_bytes.dat
+t/author-lib-convert-string-_to_bytes.t
+t/author-lib-convert-string-_to_hex.dat
+t/author-lib-convert-string-_to_hex.t
+t/author-lib-convert-string-_to_oct.dat
+t/author-lib-convert-string-_to_oct.t
 t/author-lib-misc-_check.t
 t/author-lib-misc-api_version.t
 t/author-lib-property-_alen.t
