@@ -62,6 +62,8 @@ t/author-lib-arithmetic-ternary-_rsft.dat
 t/author-lib-arithmetic-ternary-_rsft.t
 t/author-lib-arithmetic-unary-_dec.dat
 t/author-lib-arithmetic-unary-_dec.t
+t/author-lib-arithmetic-unary-_dfac.dat
+t/author-lib-arithmetic-unary-_dfac.t
 t/author-lib-arithmetic-unary-_fac.dat
 t/author-lib-arithmetic-unary-_fac.t
 t/author-lib-arithmetic-unary-_inc.dat
