@@ -66,8 +66,12 @@ t/author-lib-arithmetic-unary-_dfac.dat
 t/author-lib-arithmetic-unary-_dfac.t
 t/author-lib-arithmetic-unary-_fac.dat
 t/author-lib-arithmetic-unary-_fac.t
+t/author-lib-arithmetic-unary-_fib.dat
+t/author-lib-arithmetic-unary-_fib.t
 t/author-lib-arithmetic-unary-_inc.dat
 t/author-lib-arithmetic-unary-_inc.t
+t/author-lib-arithmetic-unary-_lucas.dat
+t/author-lib-arithmetic-unary-_lucas.t
 t/author-lib-arithmetic-unary-_sqrt.dat
 t/author-lib-arithmetic-unary-_sqrt.t
 t/author-lib-bitwise-_and.dat
@@ -133,6 +137,7 @@ t/bdstr-mbf.t
 t/bdstr-mbi.t
 t/bestr-mbf.t
 t/bestr-mbi.t
+t/bfib-mbi.t
 t/big_pi_e.t
 t/bigfltpm.inc
 t/bigfltpm.t
@@ -142,6 +147,7 @@ t/bigintpm.t
 t/bigints.t
 t/biglog.t
 t/bigroot.t
+t/blucas-mbi.t
 t/bnstr-mbf.t
 t/bnstr-mbi.t
 t/bsstr-mbf.t
