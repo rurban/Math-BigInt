@@ -2396,7 +2396,7 @@ sub blog {
           defined $_[2] ? objectify(2, @_) : objectify(1, @_);
     } else {
         # E.g., Math::BigInt::blog(256, 2) or $x->blog(2)
-        ($class, $x, $base, @r) =
+        ($class, $x, $base, @r) = 
           defined $_[1] ? objectify(2, @_) : objectify(1, @_);
     }
 
