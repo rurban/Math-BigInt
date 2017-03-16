@@ -8,7 +8,6 @@ GOALS
 HISTORY
 lib/Math/BigFloat.pm
 lib/Math/BigInt.pm
-lib/Math/BigInt.pm.bak
 lib/Math/BigInt/Calc.pm
 lib/Math/BigInt/CalcEmu.pm
 lib/Math/BigInt/Lib.pm
