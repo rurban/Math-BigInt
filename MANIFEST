@@ -28,7 +28,6 @@ t/author-blog-mbf.t
 t/author-blog-mbi.t
 t/author-bmod-bdiv-mbi.t
 t/author-bnok-mbi.t
-t/author-bpi-big-mbf.t
 t/author-bpi-mbf.t
 t/author-btmod-btdiv-mbi.t
 t/author-constructors-a-p-r.t
@@ -194,7 +193,6 @@ t/release-cpan-changes.t
 t/release-pod-coverage.t
 t/release-pod.t
 t/release-portability.t
-t/release-unused-vars.t
 t/release-whitespaces.t
 t/req_mbf0.t
 t/req_mbf1.t
@@ -224,7 +222,6 @@ t/use_lib4.t
 t/use_mbfw.t
 t/with_sub.t
 TODO
-try.pl
 META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)
 SIGNATURE                                Public-key signature (added by MakeMaker)
